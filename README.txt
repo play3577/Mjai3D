@@ -1,5 +1,5 @@
 3D GUI client for mjai.
-Version: 0.0.1
+Version: 0.0.2
 
 You can connect to a mjai server and play majong.
 
@@ -9,9 +9,14 @@ For example, we can change DEBUG only by editing "Program.cs".(when DEBUG is tru
 
 That is the same with the Socket destination.(you may think this is fatal...)
 
+To build this project, you also need Wistery.Majong project.
+
 TODO:
 State Transition(Menu, Options, ...)
 Animation(You can't tell whether his dahai is tsumogiri or not.)
 Hora detail
 Show dora marker
 ...
+
+Version 0.0.2: Moved core majong classes from Mjai3D to Wistery.Majong
+Version 0.0.1: first version

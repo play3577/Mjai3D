@@ -12,6 +12,8 @@ using Microsoft.Xna.Framework.Media;
 using System.Threading;
 using System.Diagnostics;
 
+using Wistery.Majong;
+
 namespace Mjai3D
 {
     public class Game1 : Game, Component
@@ -42,6 +44,8 @@ namespace Mjai3D
 
         public Game1()
         {
+            Hoge.Moja("huga");
+
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;

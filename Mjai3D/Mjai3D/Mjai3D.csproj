@@ -60,10 +60,6 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DynamicJson, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\DynamicJson.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
       <Private>False</Private>
@@ -112,42 +108,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AI.cs" />
-    <Compile Include="Algorithm.cs" />
     <Compile Include="Camera3D.cs" />
-    <Compile Include="Component.cs" />
-    <Compile Include="Extention.cs" />
-    <Compile Include="FileMajongMain.cs" />
     <Compile Include="FpsCounter.cs" />
-    <Compile Include="Log.cs" />
-    <Compile Include="MajongComponent.cs" />
-    <Compile Include="MajongMain.cs" />
     <Compile Include="Object3D.cs" />
     <Compile Include="Object3DBase.cs" />
-    <Compile Include="Pai.cs" />
     <Compile Include="Pai3D.cs" />
     <Compile Include="Pai3DPool.cs" />
-    <Compile Include="Pais.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
-    <Compile Include="Protocol.cs" />
     <Compile Include="Ribou3D.cs" />
     <Compile Include="Ribou3DPool.cs" />
     <Compile Include="Scene3D.cs" />
     <Compile Include="Selection.cs" />
-    <Compile Include="SocketMajongMain.cs" />
     <Compile Include="SoundEffects.cs" />
     <Compile Include="Taku.cs" />
     <Compile Include="XnaGuiAI.cs" />
-    <Compile Include="Yaku.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DynamicJson.dll" />
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Wistery.Majong\Wistery.Majong\Wistery.Majong.csproj">
+      <Project>{83646E0E-B520-495F-9B6A-F7407E9DCE5C}</Project>
+      <Name>Wistery.Majong</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Mjai3DContent\Mjai3DContent.contentproj">
       <Name>Mjai3DContent %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>

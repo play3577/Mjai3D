@@ -1,6 +1,8 @@
 using System;
 using System.Threading;
 
+using Wistery.Majong;
+
 namespace Mjai3D
 {
 #if WINDOWS || XBOX

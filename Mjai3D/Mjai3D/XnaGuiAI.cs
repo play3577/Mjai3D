@@ -5,6 +5,8 @@ using System.Text;
 
 using System.Diagnostics;
 
+using Wistery.Majong;
+
 namespace Mjai3D
 {
     public class XnaGuiAI : AI

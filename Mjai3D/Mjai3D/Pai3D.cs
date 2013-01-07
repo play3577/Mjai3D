@@ -7,6 +7,8 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
+using Wistery.Majong;
+
 namespace Mjai3D
 {
     class Pai3D : Object3DBase, Object3D
